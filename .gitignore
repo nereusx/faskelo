@@ -4,6 +4,7 @@
 *.class
 fas
 fas-*
+*-output.txt
 
 # Object files
 *.o
