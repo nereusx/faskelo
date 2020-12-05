@@ -1,6 +1,9 @@
 # Prerequisites
 *.d
 
+*.class
+fas-*
+
 # Object files
 *.o
 *.ko
