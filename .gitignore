@@ -2,6 +2,7 @@
 *.d
 
 *.class
+fas
 fas-*
 
 # Object files
