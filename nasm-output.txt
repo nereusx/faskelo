@@ -1,0 +1,20 @@
+
+fas-nasm:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000401000 <_start>:
+  401000:	48 b8 00 20 40 00 00 	movabs rax,0x402000
+  401007:	00 00 00 
+  40100a:	48 ba 1b 20 40 00 00 	movabs rdx,0x40201b
+  401011:	00 00 00 
+  401014:	48 29 c2             	sub    rdx,rax
+  401017:	48 be 00 20 40 00 00 	movabs rsi,0x402000
+  40101e:	00 00 00 
+  401021:	bf 01 00 00 00       	mov    edi,0x1
+  401026:	b8 01 00 00 00       	mov    eax,0x1
+  40102b:	0f 05                	syscall 
+  40102d:	48 31 ff             	xor    rdi,rdi
+  401030:	b8 3c 00 00 00       	mov    eax,0x3c
+  401035:	0f 05                	syscall 
